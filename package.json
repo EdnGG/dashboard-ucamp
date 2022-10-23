@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Eden Gress <gresseden@gmail.com> (https://www.facebook.com/liledn.mexikn)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^3.9.1"
+  }
 }
