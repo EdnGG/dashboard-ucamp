@@ -1,9 +1,19 @@
-*{
+* {
   padding: 10px;
   margin: 10px;
   box-sizing: border-box;
 }
-.container__header{
+.container__header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+.container__main {
+  background-color: #7c6d6d;
+  padding: 20px;
+  text-align: center;
+}
+.canvas {
   background-color: #f1f1f1;
   padding: 20px;
   text-align: center;
