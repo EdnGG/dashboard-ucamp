@@ -33,12 +33,12 @@ document.getElementById("submit-info").addEventListener("click", (e) => {
     return;
   }
   data.name = name.value;
+  data.lastName = lastname.value;
   data.age = age.value;
   data.email = email.value;
-  data.lastname = lastname.value;
   console.log(data);
   postUser(data);
-  // e.preventDefault();
+  e.preventDefault();
   // tableStudents(data);
   // e.preventDefault();
 });

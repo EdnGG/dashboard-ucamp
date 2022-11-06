@@ -23,53 +23,17 @@
     },
     {
       "name": "Luis",
+      "lastName": "Conchita 2",
       "age": "80",
       "email": "apmurillo99@hotmail.com",
       "id": 5
     },
     {
-      "name": "33",
-      "age": "33",
-      "email": "33",
+      "name": "Eden",
+      "lastName": "Ignacio",
+      "age": "37",
+      "email": "gresseden@gmail.com",
       "id": 6
-    }
-  ],
-  "books": [
-    {
-      "name": "Book 1",
-      "date": "01-02-2021",
-      "total_pages": "50",
-      "id": 1
-    },
-    {
-      "name": "Book 2",
-      "date": "01-02-2021",
-      "total_pages": "50",
-      "id": 10
-    },
-    {
-      "name": "Book 2",
-      "date": "01-02-2021",
-      "total_pages": "50",
-      "id": 11
-    },
-    {
-      "name": "Book 2",
-      "date": "01-02-2021",
-      "total_pages": "50",
-      "id": 12
-    },
-    {
-      "name": "Book 2",
-      "date": "01-02-2021",
-      "total_pages": "50",
-      "id": 13
-    },
-    {
-      "name": "Book 2",
-      "date": "01-02-2021",
-      "total_pages": "50",
-      "id": 14
     }
   ]
 }

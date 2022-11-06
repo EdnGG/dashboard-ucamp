@@ -23,11 +23,13 @@ export const tableStudents = (data) => {
   //   `;
 
   data.forEach((item, i) => {
+    console.log("Item: ", item);
     table += `
     <table>
       <thead>
        <tr>
          <th>Student</th>
+         <th>Student Lastname</th>
          <th>Age</th>
          <th>Email</th>
        </tr>
@@ -35,6 +37,7 @@ export const tableStudents = (data) => {
     <tbody>
     <tr>
       <td>${item.name}</td>
+      <td>${item.lastName}</td>
       <td>${item.age}</td>
       <td>${item.email}</td>
     </tr>
