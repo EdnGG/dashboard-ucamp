@@ -10,22 +10,36 @@
   <body>
     <section>
       <div class="container__header">
-        <header>Dashboard</header>
+        <header>Dashboard Project 03</header>
       </div>
     </section>
     <section>
       <div class="container">
         <div class="container__main">
           <div class="container__main-input">
-            <label for="input">Add Student</label>
-            <input type="text" name="input" />
+            <label for="student-name">Student Name</label>
+            <input id="name" type="text" name="student-name" />
+
+            <label for="student-lastname">Student Last Name</label>
+            <input id="lastname" type="text" name="student-lastname" />
+
+            <label for="student-age">Student Age</label>
+            <input id="age" type="age" name="student-age" />
+
+            <label for="student-email">Student Email</label>
+            <input id="email" type="email" name="student-email" />
+          </div>
+          <div>
+            <button id="submit-info" class="button">Add Student</button>
           </div>
         </div>
         <div id="table" class="container__table"></div>
       </div>
+    </section>
+    <section>
       <div class="div__canvas">
         <h1>Canvas</h1>
-        <canvas class="canvas" id="canvas" width="100" height="100"></canvas>
+        <canvas class="canvas" id="canvas" width="100" height="35"></canvas>
       </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
