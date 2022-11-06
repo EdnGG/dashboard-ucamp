@@ -14,10 +14,10 @@ tableStudents(students);
 // tableStudents();
 
 // Get info from the form
-const button = document.getElementById("submit-info");
+// const button = document.getElementById("submit-info");
 
-button.addEventListener("click", (e) => {
-  // e.preventDefault();
+document.getElementById("submit-info").addEventListener("click", (e) => {
+  e.preventDefault();
   const data = {};
   const name = document.getElementById("name");
   const age = document.getElementById("age");
@@ -37,8 +37,8 @@ button.addEventListener("click", (e) => {
   data.email = email.value;
   data.lastname = lastname.value;
   console.log(data);
-  e.preventDefault();
-  tableStudents(data);
   postUser(data);
+  // e.preventDefault();
+  // tableStudents(data);
   // e.preventDefault();
 });
