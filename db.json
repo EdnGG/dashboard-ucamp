@@ -34,6 +34,13 @@
       "age": "37",
       "email": "gresseden@gmail.com",
       "id": 6
+    },
+    {
+      "name": "Antonio",
+      "lastName": "Pena",
+      "age": "30",
+      "email": "antoniopena@gmail.com",
+      "id": 7
     }
   ]
 }

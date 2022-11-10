@@ -1,9 +1,9 @@
-import { fetchStudents, fetchBooks } from "./db.js";
+import { getStudents, fetchBooks } from "./db.js";
 import { chart } from "./chart.js";
 import { tableStudents } from "./table.js";
-import { postUser } from "./http-methods.js";
+import { postUser } from "./db.js";
 
-const students = await fetchStudents();
+const students = await getStudents();
 const books = await fetchBooks();
 
 console.log("Students: ", students);
@@ -14,7 +14,6 @@ tableStudents(students);
 // tableStudents();
 
 // Get info from the form
-// const button = document.getElementById("submit-info");
 
 document.getElementById("submit-info").addEventListener("click", (e) => {
   e.preventDefault();
